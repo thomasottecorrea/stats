@@ -1,0 +1,107 @@
+/* Collors for the project:
+
+rgb(22, 72, 99) Dark
+rgb(66, 125, 157) mid +
+rgb(155, 190, 200) mid -
+rgb(221, 242, 253) light */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 50px;
+    color: rgb(66, 125, 157);
+    background-color: rgb(221, 242, 253);
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(22, 72, 99);
+    border-radius: 10px; 
+    background-color: rgb(221, 242, 253); 
+    color: rgb(22, 72, 99); 
+}
+
+
+
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(22, 72, 99);
+    border-radius: 10px; 
+    background-color: rgb(221, 242, 253); 
+    color: rgb(22, 72, 99); 
+}
+
+button:hover {
+    background-color: rgb(22, 72, 99); /* Change to a different color on hover */
+    color: rgb(221, 242, 253); 
+}
+
+
+#result {
+    margin-top: 20px;
+}
+
+#steps {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.calculation-result {
+    margin-top: 10px;
+}
+#title-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(22, 72, 99);
+
+
+}
+
+#title-header h1 {
+    color: rgb(221, 242, 253);
+}
+
+#title-header p {
+    color: rgb(66, 125, 157);
+}
+
+body {
+    margin-top: 130px;
+}
+.steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.step {
+    width: calc(50% - 20px);
+    background-color: rgb(155, 190, 200); 
+    color:rgb(22, 72, 99);
+    padding: 10px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+
+
+
+}
+.results-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgb(22, 72, 99) ;
+    border-radius: 10px;
+    color:  rgb(221, 242, 253);
+    -webkit-box-shadow: 5px 5px 12px 2px rgb(22, 72, 99); 
+    box-shadow: 5px 5px 12px 2px rgb(22, 72, 99);
+}
+
+

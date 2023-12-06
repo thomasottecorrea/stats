@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Introduction to Statistics</title>
+</head>
+<body>
+    <div id="title-header">
+        <h1>Introduction to Statistics</h1>
+        <p>Created by Thomas Otte Correa, 2023</p>
+    </div>
+    
+
+    <label for="numbers">Enter numbers (comma-separated): </label>
+    <br> <br>
+    <input type="text" id="numbers" placeholder="e.g., 1, 2, 3, 4, 5">
+
+    <br>
+    <div id="steps">
+        <h2>How to calculate:</h2>
+        <div id="steps" class="steps-container">
+            <div class="step">
+                <button onclick="showMeanSteps()">Show Mean Steps</button>
+                <p id="meanSteps"></p>
+            </div>
+            <div class="step">
+                <button onclick="showModeSteps()">Show Mode Steps</button>
+                <p id="modeSteps"></p>
+            </div>
+            <div class="step">
+                <button onclick="showMedianSteps()">Show Median Steps</button>
+                <p id="medianSteps"></p>
+            </div>
+            <div class="step">
+                <button onclick="showRangeSteps()">Show Range Steps</button>
+                <p id="rangeSteps"></p>
+            </div>
+            <div class="step">
+                <button onclick="showMidrangeSteps()">Show Midrange Steps</button>
+                <p id="midrangeSteps"></p>
+            </div>
+            <div class="step">
+                <button onclick="showSampleVarianceSteps()">Show Sample Variance Steps</button>
+                <p id="sampleVarianceSteps"></p>
+            </div>
+            <div class="step">
+                <button onclick="showStandardDeviationSteps()">Show Standard Deviation Steps</button>
+                <p id="standardDeviationSteps"></p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <br>
+    <div id="result" class="results-container">
+        <h2>Results:</h2>
+        <button onclick="calculateStatistics()">Show Results</button>
+        <p id="mean">Mean: </p>
+        <p id="mode">Mode: </p>
+        <p id="median">Median: </p>
+        <p id="range">Range: </p>
+        <p id="midrange">Midrange: </p>
+        <p id="sampleVariance">Sample Variance: </p>
+        <p id="standardDeviation">Standard Deviation: </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
